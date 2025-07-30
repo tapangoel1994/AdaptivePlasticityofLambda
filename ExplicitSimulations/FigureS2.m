@@ -11,6 +11,7 @@
 clear all;
 close all;
 %% Generate figure
+addpath('Utils\');
 load('Data/FigureData.mat'); %load file that contains data for the figure.
 f = figure('Position',[160,190,1904,935]);
 t = tiledlayout(2,3);
@@ -167,6 +168,5 @@ c.Label.Rotation = -90;
 c.TickLabelInterpreter = 'latex';
 c.FontSize = 16;
 c.Label.FontSize = 22;
-
 
 
