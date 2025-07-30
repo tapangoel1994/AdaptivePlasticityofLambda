@@ -15,6 +15,7 @@
 clear all;
 close all;
 %% Generate figure
+addpath('Utils\');
 f = figure('Position',[200,100,1904,935]);
 t = tiledlayout(2,3);
 
